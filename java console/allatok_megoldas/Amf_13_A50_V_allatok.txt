@@ -1,0 +1,55 @@
+
+ Az allatok.csv fájl állatfajok adatait (Állatfaj;Magasság(cm);Súly(kg);Életkor(év))
+ tartalmazza, pontosvesszővel elválasztva, utf-8 kódolással.
+ Hozzunk létre egy Allatok nevű projektet és oldjuk meg a következő feladatokat!
+
+ 0) Olvassuk be a fájl adatait egy megfelelő adatszerkezetbe,
+    és jelenítsük meg a beolvasott adatok számát!.....................(2p)
+ 1) Írjuk ki a legmagasabb állatfajta nevét és magasságát!............(1p)
+ 2) Határozzuk meg két tizedes jegyre a húsz kilónál nehezebb
+    állatfajok átlag életkorát!.......................................(1p)
+ 3) Keressük meg és írjuk ki az átlagsúlyhoz legközelebbi súlyú
+    állatfajta nevét és súlyát!.......................................(2p)
+ 4) Soroljuk fel azoknak a fajtáknak a nevét,
+    melyek nevében egymás után két egyforma betű található!...........(1p)
+ 5) A magasságuk alapján ötven centinkét kategorizálva a fajtákat,
+    határozuk meg mely kategóriákba tartozik állat és hány darab!.....(2p)
+    A kategóriákat három számjegyre (vezető nullákkal) írjuk ki!......(1p)
+ 6) Az előző feladat kategóriái közül válasszunk egyet
+    véletlenszerűen, majd soroljuk fel az oda tartozó fajtákat!.......(2p)
+    A felsorolásban vessző válassza el a fajtákat (de a végén NE!)....(1p)
+ 7) Írjuk ki a kicsi.csv fájlba
+    az egy méternél kisebb állatok adatait!...........................(2p)
+
+ Minta:
+ 0) Összesen 26 féle állatfajta adata beolvasva
+ 1) A legmagasabb állatfajta: Zsiráf, 500cm
+ 2) A húsz kilónál nehezebb fajták átlagéletkora: 24,71 év
+ 3) Az átlagsúlyhoz (453kg) legközelebbi fajta: Ló (500kg)
+ 4) Kettős betű van a fajta nevében:
+    * Indiai orrszarvú
+    * Gorilla
+    * Vaddisznó
+ 5) Magasság kategórák (50cm):
+    * 000-049cm: 4 darab
+    * 050-099cm: 8 darab
+    * 100-149cm: 5 darab
+    * 150-199cm: 7 darab
+    * 300-349cm: 1 darab
+    * 500-549cm: 1 darab
+ 6) Ebből egy véletlen kategóriába (0-49cm) eső állatok:
+    * Szürke róka, Lemúr, Kakadu, Süni
+
+ kicsi.csv:
+ Leopárd;60;90;15
+ Farkas;90;40;8
+ Szürke róka;40;5;7
+ Vörös panda;60;5;10
+ Koala;60;14;12
+ Lemúr;40;2;17
+ Túzok;90;15;9
+ Kakadu;30;1;52
+ Puma;70;50;12
+ Hiúz;80;20;21
+ Vaddisznó;80;100;14
+ Süni;20;1;7

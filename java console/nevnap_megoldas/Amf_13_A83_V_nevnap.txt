@@ -1,0 +1,55 @@
+
+ A nevnap.csv fájl névnapok adatait (név;nap1[;nap2;nap3...]) tartalmazza,
+ pontosvesszővel elválasztva, utf-8 kódolással.
+ Az egy névhez tartozó napok száma változó!
+ Hozzunk létre egy Nevnap nevű projektet és oldjuk meg a következő feladatokat!
+
+ 0) Olvassuk be a fájl adatait egy megfelelő adatszerkezetbe,
+    és jelenítsük meg a beolvasott adatok számát!.....................(2p)
+    Írjuk ki a tizedik (0->9.) nevet és a névnapjainak a számát!......(1p)
+ 1) Keressük meg és írjuk ki mikor vannak János névnapok!.............(1p)
+    A napokat vesszővel válasszuk el egymástól (de a végén NE)!.......(1p)
+ 2) Keressük ki kiknek van névnapjuk április elsején!.................(2p)
+ 3) Keressük meg és írjuk ki kinek van a legtöbb névnapja!............(1p)
+    Írjuk ki azokat is, akiknek ugyanennyi névnapja van!..............(1p)
+ 4) Számoljuk összes és írjuk ki
+    hány nap van összesen a nevekhez rendelve.........................(1p)
+ 5) Határozzuk meg melyik hónapban hány névnap található összesen!....(2p)
+    A hónapokat a nevükkel jelenítsük meg!............................(1p)
+ 6) Írjuk ki a elseje.txt fájlba azokat a neveket,
+    amelyek valamelyik hónap elsején ünneplik névnapjukat!............(2p)
+
+ Minta:
+ 0) Összesen 2861 név beolvasva.
+    A tizedik név Ábel, akinek 5 névnapja van.
+ 1) János névnapjai: 0131, 0626, 1227
+ 2) Április elsején van névnapja: Agád Agapion Hugó Pál Palmer Pável Pósa Urbán 
+ 3) Legtöbb névnapja (12) Györe nevűeknek van!
+    De ugyanennyi névnapja van még: György Györk Györke 
+ 4) Összesen 6304 nap van a nevekhez rendelve.
+ 5) Az egyes hónapokban tartott névnapok száma:
+    Január: 547
+    Február: 512
+    Március: 533
+    Április: 482
+    Május: 629
+    Június: 535
+    Július: 714
+    Augusztus: 541
+    Szeptember: 463
+    Október: 510
+    November: 419
+    December: 419
+ 6) Elsejei névnapok kiírva az elseje.txt fájlba.
+
+ elseje.txt:
+ 0401: Agád
+ 0401: Agapion
+ 0101: Aglája
+ 0601: Ajbars
+ 0301: Albin
+ 0301: Albina
+ 0801: Alfonz
+ 0101: Algernon
+ 0101: Álmos
+ ...

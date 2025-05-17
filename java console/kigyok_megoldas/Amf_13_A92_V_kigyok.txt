@@ -1,0 +1,45 @@
+
+ A kigyok.csv fájl különböző kígyók adatait tartalmazza,
+ pontosvesszővel elválasztva, utf-8 kódolással. VIGYÁZAT, az első sor fejléc!
+ Hozzunk létre egy Kigyok nevű projektet és oldjuk meg a következő feladatokat!
+
+ 0) Olvassuk be a fájl adatait egy megfelelő adatszerkezetbe,
+    és jelenítsük meg a beolvasott adatok számát!.....................(2p)
+    Írjuk ki hány mérges és nem mérges kígyó adatát olvastuk be!......(1p)
+ 1) Határozzuk meg a kígyók teljes hosszát méterben (2 tizedes)!......(1p)
+ 2) Írjuk ki a leghosszabb mérges(!) kígyó hosszát!...................(2p)
+ 3) Jelenítsük meg mely földrészekről (abc) származnak a kígyók!......(1p)
+    A földrészeket vesszővel elválasztva írjuk ki!....................(1p)
+ 4) Válasszunk ki véletlenszerűen egy mérges(!) kígyót,...............(1p)
+    és írjuk ki a származási helyét és hosszát is!....................(1p)
+ 5) A fajta utolsó szava (pl. Zöld Mamba -> Mamba) a faj neve!
+    Írjuk ki melyikből fajból hány féle van a fájlban!................(2p)
+ 6) Írjuk ki melyik az utolsó Mamba fajta!............................(1p)
+ 7) Írjuk ki a kobra.txt fájlba a mintának megfelelően
+    a Kobrák adatait!.................................................(2p)
+
+ Minta:
+ 0) Összesen 23 kígyó adata beolvasva
+    Közülük 12 mérges és 11 nem mérges
+ 1) A kígyók teljes hossza méterben: 68,10m
+ 2) A leghosszabb mérges kígyó: King Kobra (550cm)
+ 3) A kígyók származási helye (abc): Afrika, Amerika, Ázsia
+ 4) Egy véletlen kiválasztott mérges kígyó: Indiai Kobra
+    Származási helye Ázsia, hossza 280cm
+ 5) Adott fajhoz (abc) tartozó kígyók darabszáma:
+    Boa : 5 féle
+    Kobra : 6 féle
+    Kígyó : 4 féle
+    Mamba : 3 féle
+    Piton : 3 féle
+    Vipera : 2 féle
+ 6) Az utolsó Mamba fajtája: Fekete Mamba
+ 7) Minden Kobra mentve a kobra.txt fájlba
+
+ kobra.txt:
+ Kobra (300cm)
+ King Kobra (550cm)
+ Harlequin Kobra (120cm)
+ Indiai Kobra (280cm)
+ Vörös Ázsiai Kobra (330cm)
+ Arany Kobra (350cm)

@@ -1,0 +1,41 @@
+
+ A leltar.csv fájl különböző eszközök adatait tartalmazza,
+ pontosvesszővel elválasztva, utf-8 kódolással. VIGYÁZAT, az első sor fejléc!
+ Hozzunk létre egy Leltar nevű projektet és oldjuk meg a következő feladatokat!
+
+ 0) Olvassuk be a fájl adatait egy megfelelő adatszerkezetbe,
+    és jelenítsük meg a beolvasott adatok számát!.....................(2p)
+    Írjuk ki leltárban lévő eszközök árának összegét!.................(1p)
+ 1) Keressük meg és írjuk ki melyik a legdrágább eszköz!..............(1p)
+ 2) Írjuk ki melyik évtől melyik évig vannak adatok a leltárban!......(1p)
+ 3) Jelenítsük meg az egyes években vásárolt eszközök darabszámát!....(2p)
+    Amelyik évben nem volt vásárálás, ott legyen "Nincs eszköz"!......(1p)
+ 4) Számoljuk ki melyik évben mennyibe kerültek a beszerzések!........(2p)
+    Ezek közül íjuk ki a legnagyobb összértékű beszerzés évét!........(1p)
+    Írjuk ki ebben az évben a beszerzés összértékét is!...............(1p)
+ 5) Jelenítsük meg a legnagyobb értékű beszerzés adatait!.............(1p)
+ 6) Írjuk ki a kezdes.txt fájlba a mintának megfelelően
+    az első évben beszerzett eszközök adatait!........................(2p)
+
+ Minta:
+ 0) A beolvasott leltári tételek száma: 17
+    A benne lévő eszközök összára: 2 857 560,-Ft
+ 1) A legdrágább eszköz: Légkondícionáló (280 000,-Ft)
+ 2) A leltár a 2018-2024 éveket tartalmazza
+ 3) Az egyes években vásárolt eszközök darabszáma:
+    2018 : 5 darab eszköz
+    2019 : 10 darab eszköz
+    2020 : 36 darab eszköz
+    2021 : Nincs eszköz
+    2022 : 8 darab eszköz
+    2023 : 4 darab eszköz
+    2024 : 1 darab eszköz
+ 4) A legnagyobb összértékű beszerzés éve: 2018
+    Ekkor a beszerzés összértéke: 1 097 000,-Ft
+ 5) A legnagyobb értékű beszerzés:
+    3 darab Fujitsu számítógép = 597 000,-Ft
+ 6) Az első év adatai kiírva a kezdes.txt fájlba
+
+ kezdes.txt:
+ 2 x Acer laptop = 500000,-Ft
+ 3 x Fujitsu számítógép = 597000,-Ft

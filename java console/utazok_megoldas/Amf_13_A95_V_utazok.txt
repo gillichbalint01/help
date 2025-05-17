@@ -1,0 +1,41 @@
+
+ Az utazok.csv fájl különböző utazások adatait (név, város, dátum, indulás)
+ tartalmazza, pontosvesszővel elválasztva, utf-8 kódolással. NINCS fejléc!
+ Hozzunk létre egy Utazok nevű projektet és oldjuk meg a következő feladatokat!
+
+ 0) Olvassuk be a fájl adatait egy megfelelő adatszerkezetbe,
+    és jelenítsük meg a beolvasott adatok számát!.....................(2p)
+ 1) Határozzuk meg hány féle városba utaztak!.........................(1p)
+    Ezek közül válasszunk ki egyet véletlenszerűen,...................(1p)
+    és írjuk ki hányan utaztak abba a városba összesen!...............(1p)
+ 2) Írjuk ki a legkorábbi indulás időpontját!.........................(1p)
+    Írjuk ki azt is, összesen hány utazás kezdődött délelőtt!.........(1p)
+ 3) Készísünk statisztikát a havonkénti utazások számából!............(2p)
+ 4) Írjuk ki azokat a vezetékneveket (első név) ABC sorrendben,
+    amelyek egynél többször fordulnak elő!............................(2p)
+ 5) Írjuk ki azokat a napokat, ahol kettőnél többen utaztak!..........(2p)
+ 6) Írjuk ki a szeged.txt fájlba a mintának megfelelően
+    a Szegedre utazók adatait!........................................(2p)
+
+ Minta:
+ 0) 50 utazó adata beolvasva
+ 1) Összesen 9 városba utaztak
+    Közülük egy véletlenszerűen kiválasztott: Pécs
+    Ebbe a városba 7 utazó érkezett
+ 2) Legkorábbi indulás: 10:17
+    Összesen 5 utazás kezdődött délelőtt
+ 3) Utazások száma hónaponként:
+    03.hó : 13 utazás
+    04.hó : 17 utazás
+    05.hó : 9 utazás
+    06.hó : 11 utazás
+ 4) Többször szereplő vezetéknevek:
+    Kocsis Kovács Molnár Papp Szabó Tóth Varga 
+ 5) Ugyanazon a napon kettőnél több utazás: 04.10(3) 05.10(4) 06.11(3) 
+ 6) Szegedre utazók kiírva a szeged.txt fájlba
+
+ szeged.txt:
+ Molnár Éva (05.25 18:43)
+ Barna Ádám (04.16 11:45)
+ Kuncz László (06.27 23:37)
+ Varga András (04.23 15:56)
