@@ -1,0 +1,22 @@
+
+ A diafilm.csv fájl különböző diafilmek adatait tartalmazza, pontosvesszővel
+ elválasztva, utf-8 kódolással. VIGYÁZAT, az első sor fejléc!
+ Hozzunk létre egy UtazasGUI nevű projektet és oldjuk meg a következő feladatokat!
+
+ 1) Hozzuk létre a mintán látható grafikus felületet!.................(2p)
+    A Fájl menüben legyen Megnyitás (Ctrl+O) és Kilépés,
+    a Súgóban Névjegy menüpont!
+    A lista mérete 400x400 pixel, de kövesse az ablak méretét!
+    A ComboBox szélessége 100 pixel, a darabszám legyen MINDIG alul!
+    Induláskor a Fekete-fehér és a Színes opció is legyen kiválasztva!
+    Az elemek NE érjenek össze!
+ 2) A Megnyitás menüpont fájlválasztó segítségével töltse be az
+    adatokat tartalmazó *.csv fájlt (alapesetben a projektmappából)...(1p)
+    egy megfelelő adatszerkezetbe,....................................(1p)
+    az éveket (ismétlődés nélkül és növekvőben) tegye a ComboBoxba,...(1p)
+    majd válassza ki közülük a legelső évet,
+    és jelenítse meg a feltételnek elegettevő diafilmek listáját!.....(1p)
+ 3) A lista frissüljön, ha másik évet választunk,.....................(1p)
+    vagy ha változik a Fekete-fehér / Színes opció!...................(1p)
+ 4) A Súgó / Névjegy menüpont felugró ablakban adjon információt!.....(1p)
+    A Fájl / Kilépés menüpont zárja be a programot!...................(1p)
