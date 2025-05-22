@@ -1,0 +1,15 @@
+useState:
+const [valami, setValami] = useState("")
+bármilyen változó tárolására jó
+ha pl azt akarjuk hogy 'valami' = "alma" legyen akkor setValami("alma")
+
+useEffect:
+
+useEffect(()=>{
+    console.log("useEffect")
+}, [ adat ])
+
+a benne levő kód akkor fut le ha a megadott []-ben lévő adat változik,
+ha nincs megadva a []-ba semmi, akkor csak egyszer
+
+

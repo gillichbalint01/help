@@ -1,0 +1,8 @@
+új vite projekt:
+pnpm create vite .
+-> vanilla
+-> JavaScript
+pnpm i
+
+futtatás: 
+pnpm run dev
