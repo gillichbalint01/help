@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;  /* Alapértelmezett */
+    gap: 20px;            /* Elemek közötti tér */
+    padding: 20px;
+}
+
+.item {
+    flex: 1;              /* Egyenlő méretű elemek */
+    padding: 20px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;  /* Egymás alá rendezés */
+    }
+    
+    .item {
+        width: 100%;            /* Teljes szélesség */
+        margin-bottom: 10px;    /* Térköz alul */
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
