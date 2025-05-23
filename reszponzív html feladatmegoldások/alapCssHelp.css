@@ -1,0 +1,102 @@
+/* ========== ÁLTALÁNOS BEÁLLÍTÁSOK ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Padding és border nem növeli az elem méretét */
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* betűtípus */
+    line-height: 1.6; /* Szöveg sorköz */
+    color: #333; /* Alap szövegszín */
+    background-color: #f9f9f9; /* Háttérszín */
+}
+
+/* ========== SZÖVEG FORMÁZÁS ========== */
+h1 {
+    font-size: 2rem; /* 2x alapméret (rem = root element méret) */
+    font-weight: bold; /* Félkövér */
+    text-align: center; /* Középre igazítás */
+    margin-bottom: 1rem; /* Alsó margó */
+    color: #0066cc; /* Szín */
+}
+
+p {
+    font-size: 1rem;
+    text-align: justify; /* Sorkizárt */
+    margin: 0.5rem 0; /* Felső és alsó margó */
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none; /* Aláhúzás eltávolítása */
+}
+
+a:hover {
+    text-decoration: underline; /* Aláhúzás hoveren */
+}
+
+/* ========== FLEXBOX ELRENDÉZÉS ========== */
+.container {
+    display: flex; /* Flex konténer */
+    flex-direction: row; /* Alapértelmezett (vízszintes) */
+    flex-wrap: wrap; /* Többsoros elrendezés */
+    justify-content: center; /* Vízszintes középre igazítás */
+    align-items: center; /* Függőleges középre igazítás */
+    gap: 1rem; /* Elemek közötti tér */
+    padding: 1rem;
+}
+
+.item {
+    flex: 1; /* Egyenlő arányú nyújtás */
+    min-width: 200px; /* Minimális szélesség */
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Kerekített sarkok */
+}
+
+/* Reszponzív elrendezés */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Egymás alá rendezés */
+    }
+    .item {
+        width: 100%; /* Teljes szélesség */
+    }
+}
+
+/* ========== BOX MODELL (MARGIN, PADDING, BORDER) ========== */
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px; /* Külső tér */
+    padding: 20px; /* Belső tér */
+    border: 2px solid #000; /* Szegély */
+    border-radius: 10px; /* Kerekítés */
+    background-color: #f0f0f0;
+}
+
+/* ========== ÁRNYÉKOK & ÁTTŰNÉS ========== */
+.shadow-box {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* X, Y, elmosás, szín */
+    transition: all 0.3s ease; /* Sima animáció hoverre */
+}
+
+.shadow-box:hover {
+    transform: translateY(-5px); /* Feljebb mozgat hoveren */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* ========== GRID (EGYSZERŰ PÉLDA) ========== */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 oszlop */
+    gap: 1rem;
+}
+
+.grid-item {
+    background: #e0e0e0;
+    padding: 1rem;
+    text-align: center;
+}
