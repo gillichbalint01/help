@@ -1,5 +1,15 @@
 
-// pnpm i express cors mysql után be is tudjuk importálni
+// pnpm i express cors mysql2 nodemon után be is tudjuk importálni
+/*
+    a scriptekhez ez kell:
+
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  
+*/ 
 import express from 'express'
 import cors from 'cors'
 import mysql from 'mysql2/promise'
