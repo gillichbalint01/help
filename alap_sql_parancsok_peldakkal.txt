@@ -1,0 +1,25 @@
+
+-- ALAP SQL PARANCSOK PÉLDÁKKAL ÉS MAGYARÁZATTAL
+
+-- 1. SELECT - Adatok lekérdezése egy táblából
+-- Lekérdezzük az összes adatot a 'diakok' nevű táblából
+SELECT * FROM diakok;
+
+-- Lekérdezzük csak a nev és eletkor oszlopokat
+SELECT nev, eletkor FROM diakok;
+
+-- 2. INSERT - Új adat beszúrása egy táblába
+-- Beszúrunk egy új diákot a 'diakok' táblába
+INSERT INTO diakok (nev, eletkor, osztaly) VALUES ('Kiss Anna', 14, '8.A');
+
+-- 3. UPDATE - Meglévő adat módosítása
+-- Frissítjük Kiss Anna életkorát 15-re
+UPDATE diakok SET eletkor = 15 WHERE nev = 'Kiss Anna';
+
+-- 4. DELETE - Adat törlése
+-- Töröljük azokat a diákokat, akik 15 évesek
+DELETE FROM diakok WHERE eletkor = 15;
+
+-- További megjegyzés:
+-- A WHERE feltétel használata fontos az UPDATE és DELETE parancsoknál,
+-- különben az összes sor módosulhat vagy törlődhet a táblában.
